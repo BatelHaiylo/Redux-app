@@ -1,16 +1,16 @@
-import {} from '../actions/actions'
+import {getUserById,addUser,updateUser,deleteUser} from '../actions/actions'
 
-export default useReducer(usersState, action){
+export default function useReducer({users}, action){
     switch(action.type){
-        case getUser():
+        case getUserById():
             return ;
-        case createUser():
-            return ;
+        case addUser():
+            return [...users,action.payload];
         case updateUser():
             return ;
         case deleteUser():
             return ;
         default:
-            return ;
+            return {users} ;
     }
 }

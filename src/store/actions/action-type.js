@@ -1,4 +1,4 @@
-export const GET_USER = "GET_USER"
-export const CREATE_USER = "CREATE_USER"
+export const GET_USER_BY_ID = "GET_USER"
+export const ADD_USER = "ADD_USER"
 export const UPDATE__USER = "UPDATE__USER"
 export const DELETE_USER = "DELETE_USER"
