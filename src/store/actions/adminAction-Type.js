@@ -1,0 +1,11 @@
+const GET_ADMIN = "GET_ADMIN"
+const ADD_ADMIN = "ADD_ADMIN"
+const UPDATE__ADMIN = "UPDATE__ADMIN"
+const DELETE_ADMIN = "DELETE_ADMIN"
+
+export{
+    GET_ADMIN,
+    ADD_ADMIN,
+    UPDATE__ADMIN,
+    DELETE_ADMIN
+}
